@@ -1,0 +1,50 @@
+body {
+    font-family: verdana,Arial;
+    background-color: #FFFFFF;
+    color: #666666
+    
+}
+
+header {
+    font-family: Georgia;
+    background-color: #003058;
+    color: #FFFFFF
+
+}
+
+header h1 {
+    line-height: 140%;
+    padding: .5rem;
+}
+nav {
+    font-weight: bold;
+    background-color: #F3F3F3;
+}
+h2 {
+    font-family: Georgia;
+    color: #424242
+}
+
+dt {
+    font-weight: bold;
+    color: #003058
+}
+
+footer {;
+font-size: .70rem;
+font-style: italic;
+text-align: center;
+
+}
+
+
+.ut { 
+    font-weight: bold;
+    color: #BA1C21
+}
+#wrapper {
+width: 80%
+;margin-left:auto
+;margin-right:auto
+
+}
