@@ -93,3 +93,33 @@ nav ul li a {
     margin-top: 45px;
     font-size: 1.1rem;
 }
+@media screen and (max-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0px 768px 0px; 
+    justify-content: center;
+  }
+  .left-column, .right-column {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+  .center-column {
+    width: 100%;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row; 
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column; 
+  }
+}
+
